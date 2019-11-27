@@ -1,0 +1,24 @@
+.fondo
+    color: salmon
+    background-color: aqua
+
+
+$color_letra: white
+$color_fondo: blue
+
+.fondo2
+    color : $color_letra
+    background-color : $color_fondo
+
+@mixin big-blue-text
+    font-family: Arial
+    font-size: 25px
+    font-weight: bold
+    color:#0000ff
+
+.tit3
+    @include big-blue-text
+
+.tit4
+    @extend .tit3
+

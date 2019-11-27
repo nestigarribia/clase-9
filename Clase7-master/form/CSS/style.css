@@ -1,0 +1,18 @@
+.fondo {
+  color: salmon;
+  background-color: aqua;
+}
+
+.fondo2 {
+  color: white;
+  background-color: blue;
+}
+
+.tit3, .tit4 {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+/*# sourceMappingURL=style.css.map */
